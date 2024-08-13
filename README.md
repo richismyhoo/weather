@@ -1,1 +1,1 @@
-web weather app usin react
+web weather app using react

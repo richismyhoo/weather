@@ -1,0 +1,25 @@
+.footer {
+    width: 980px;
+    height: 250px;
+    background-color: #2f3950;
+    display: inline-block;
+    position: absolute;
+    border-radius: 30px;
+    left: 0px;
+    top: 305px;
+}
+
+.footer h3 {
+    position: absolute;
+    left: 30px;
+    color: #a5a5a5;
+}
+
+#wind {
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    color: rgb(136, 136, 136);
+    font-size: 26px;
+    font-weight: 400;
+}

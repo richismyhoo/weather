@@ -1,0 +1,80 @@
+
+.app-navigation {
+    height: 900px;
+    width: 200px;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 50px;
+    width: 130px;
+    background-color: #2f3950;
+    height: 850px;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+li a {
+    display: block;
+    color: #c5c8dd;
+    padding-top: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.icon-container {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background-image: url('https://cdn.icon-icons.com/icons2/3191/PNG/512/cyclone_weather_world_time_icon_194253.png');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.icon-container-parent {
+    background-color: rgb(30, 34, 49);
+    width: 85px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    border-radius: 20px;
+}
+
+li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.search-container {
+    width: 1000px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    margin-top: -100px;
+}
+
+.search {
+    position: absolute;
+    left: 230px;
+    top: 30px;
+    width: 1000px;
+    height: 40px;
+    background-color: #2f3950;
+    border-radius: 20px;
+}
+
+.search::placeholder {
+    padding-left: 10px;
+    color: #c5c8dd;
+    font-size: 16px;
+    font-weight: 500;
+}
